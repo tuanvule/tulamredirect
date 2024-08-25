@@ -7,6 +7,10 @@ app.get('/redirect', (req, res) => {
     res.redirect("https://forms.gle/9hVxtoAbSUPDtC2o6")
 })
 
+app.get('/hello', (req, res) => {
+    res.send('Hello World!')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })

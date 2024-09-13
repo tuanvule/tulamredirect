@@ -4,7 +4,7 @@ const port = "https://tulamredirect.vercel.app/"
 
 app.get('/redirect', (req, res) => {
 //   res.send('Hello World!')
-    res.redirect("facebook.com/itclub.nhh")
+    res.redirect("https://www.facebook.com/itclub.nhh")
 })
 
 app.get('/hello', (req, res) => {

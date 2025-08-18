@@ -12,6 +12,11 @@ app.get("/redirect/recruitment_form", (req, res) => {
     res.redirect("https://forms.gle/hDq1qbftfVmn1Smr6");
 });
 
+app.get("/redirect/seminar_form", (req, res) => {
+    //   res.send('Hello World!')
+    res.redirect("https://forms.gle/LyXwu5fHUh13WDJJA");
+});
+
 app.get("/hello", (req, res) => {
     res.send("Hello World!");
 });
